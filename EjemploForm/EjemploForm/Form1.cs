@@ -39,10 +39,13 @@ namespace EjemploForm
             }
             else
             {
+                BackgroundImage = Properties.Resources.IMG_20180611_202339;
+
                 DialogResult resultado = new DialogResult();
                 Form mensaje = new MessageBoxForm();
 
                 resultado = mensaje.ShowDialog();
+
             }
         }
 

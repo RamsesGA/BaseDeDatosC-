@@ -37,17 +37,19 @@
             // 
             this.lblWarning.AutoSize = true;
             this.lblWarning.Font = new System.Drawing.Font("Wide Latin", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWarning.Location = new System.Drawing.Point(12, 61);
+            this.lblWarning.Location = new System.Drawing.Point(16, 75);
+            this.lblWarning.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblWarning.Name = "lblWarning";
-            this.lblWarning.Size = new System.Drawing.Size(555, 33);
+            this.lblWarning.Size = new System.Drawing.Size(694, 42);
             this.lblWarning.TabIndex = 0;
             this.lblWarning.Text = "DATOS GUARDADOS";
             // 
             // btnSalir2
             // 
-            this.btnSalir2.Location = new System.Drawing.Point(191, 253);
+            this.btnSalir2.Location = new System.Drawing.Point(255, 311);
+            this.btnSalir2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalir2.Name = "btnSalir2";
-            this.btnSalir2.Size = new System.Drawing.Size(167, 69);
+            this.btnSalir2.Size = new System.Drawing.Size(223, 85);
             this.btnSalir2.TabIndex = 1;
             this.btnSalir2.Text = "Salir/Cerrar";
             this.btnSalir2.UseVisualStyleBackColor = true;
@@ -55,12 +57,13 @@
             // 
             // MessageBoxForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(595, 334);
+            this.ClientSize = new System.Drawing.Size(793, 411);
             this.Controls.Add(this.btnSalir2);
             this.Controls.Add(this.lblWarning);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MessageBoxForm";
             this.Text = "MessageBox";
             this.ResumeLayout(false);
